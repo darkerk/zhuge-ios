@@ -455,7 +455,7 @@ static Zhuge *sharedInstance = nil;
 
 // 更新网络指示器
 - (void)updateNetworkActivityIndicator:(BOOL)on {
-    [UIApplication sharedApplication].networkActivityIndicatorVisible = on;
+    //[UIApplication sharedApplication].networkActivityIndicatorVisible = on;
 }
 
 - (void)reachabilityChanged:(SCNetworkReachabilityFlags)flags {
